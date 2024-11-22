@@ -36,4 +36,5 @@ class MyApp(App):
     def build(self):
         return MyBoxLayout()
 
-MyApp().run()
+if __name__ == "__main__":
+    MyApp().run()
